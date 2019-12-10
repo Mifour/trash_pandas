@@ -1,6 +1,6 @@
 def explore(df, histo = True, correlation = True, nb_uniques=10):
     """
-    WIP: please report feedback to Thomas Dufour
+    WIP: please report feedback to Thomas Dufour (Mifour)
 
     A tool to help discovering dataset and the underlying biais using only print function.
     usage:
