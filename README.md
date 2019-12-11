@@ -17,6 +17,20 @@ explore(df)
 
 ```
 ----
+### yield option  
+It is possible to get a generator that display the result one column at a time. 
+
+```python
+from trash_pandas import explore
+
+df = pandas.read_csv('file.csv')
+
+gen = explore(df, generator=True)
+next(gen)
+...
+
+```
+----
 
 I developed it initially for my own usage.  
 Mifour.
