@@ -7,6 +7,12 @@ It deliver fast statistical insights about the data of every column such as type
 
 It is intended to replace info() and describe().  
 
+### Installation  
+[Pypi link](https://pypi.org/project/trash-pandas/)
+```bash
+pip install trash-pandas
+```
+
 ### usage
 ```python
 from trash_pandas import explore

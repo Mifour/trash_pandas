@@ -1,0 +1,6 @@
+setup.cfg
+setup.py
+trash_pandas.egg-info/PKG-INFO
+trash_pandas.egg-info/SOURCES.txt
+trash_pandas.egg-info/dependency_links.txt
+trash_pandas.egg-info/top_level.txt
