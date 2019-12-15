@@ -47,15 +47,15 @@ def explore_col(df, col, histo=True, nb_uniques=10):
             print("histogram:")
             if isinstance(df[col][0], bool):
                 plot_hist(
-                    df[col].apply(lambda row: 0 if row is False else 1 if row is True else -1),
+                    df[col].dropna().apply(lambda row: 0 if row is False else 1 if row is True else -1),
                     bincount = 30,
                     pch = '.',
                     xlab=True
                 )
             else:
-                plot_hist(df[col],bincount = 30, pch = '.', xlab=True)
+                plot_hist(df[col].dropna(),bincount = 30, pch = '.', xlab=True)
 
-    uniques = sorted(df[col].unique())
+    uniques = sorted(df[col].dropna().unique())
     print(f"contains {len(uniques)} different values")
           
     if len(uniques) < nb_uniques:
