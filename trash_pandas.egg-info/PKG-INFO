@@ -1,8 +1,8 @@
 Metadata-Version: 2.1
 Name: trash-pandas
-Version: 0.2.2
+Version: 0.2.3
 Summary: Analytic tool for Pandas DataFrame exploration
-Home-page: https://github.com/Mifour/trash_pandas/archive/0.2.1.tar.gz
+Home-page: https://github.com/Mifour/trash_pandas/archive/0.2.3.tar.gz
 Author: Mifour
 Author-email: mifour@yopmail.com
 License: UNKNOWN
@@ -13,7 +13,9 @@ Description: # trash_pandas
         
         It deliver fast statistical insights about the data of every column such as type, NaN values, unique values, distribution, mean, median, quartiles, correlations... and render with graphs using only print statements, making it suitable for both notebook and shell usage.  
         
-        It is intended to replace info() and describe().  
+        It is intended to replace info() and describe().   
+        
+        See the code on this [Github](https://github.com/Mifour/trash_pandas)
         
         ### Installation  
         [Pypi link](https://pypi.org/project/trash-pandas/)

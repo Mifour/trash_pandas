@@ -1,6 +1,7 @@
 README.md
 setup.cfg
 setup.py
+trash_pandas.py
 trash_pandas.egg-info/PKG-INFO
 trash_pandas.egg-info/SOURCES.txt
 trash_pandas.egg-info/dependency_links.txt

@@ -5,13 +5,13 @@ with open("README.md", "r") as fh:
 
 setup(
     name="trash_pandas", # Replace with your own username
-    version="0.2.2",
+    version="0.2.3",
     author="Mifour",
     author_email="mifour@yopmail.com",
     description="Analytic tool for Pandas DataFrame exploration",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/Mifour/trash_pandas/archive/0.2.1.tar.gz",
+    url="https://github.com/Mifour/trash_pandas/archive/0.2.3.tar.gz",
     packages=find_packages(),
     py_modules=['trash_pandas'],
     classifiers=[
